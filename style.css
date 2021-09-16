@@ -57,23 +57,19 @@ main h3{
     color: #fff;
     outline: none;
     border: none;
-    font-weight: 700;
+    font-weight: 400;
     text-transform: uppercase;
     border-radius: 50px;
-    margin-block: 20px;
+    margin-block: 10px;
 }
 .facts p{
     font-size: 18px;
     text-align: center;
     color: #fff;
     font-weight: 300;
-    text-transform:lowercase;
     border-radius: 50px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    background: rgba(0,0,0,0.5);
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.685);
 }
 main h4{
     font-size: 20px;
