@@ -1,13 +1,13 @@
-  *{
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+body {
     font-family: 'Open Sans', sans-serif;
     background-image: linear-gradient(#b0f5c4, #51a58c)
 }
-header{
+header {
     height:100px;
     background: #0d7b69cb;
     opacity: 75%;
@@ -15,9 +15,9 @@ header{
     justify-content: left;
     align-items: center;
 }
-main{
+main {
     display: flex;
-    height: calc(100vh - 100px);
+    height: 100vh;
     align-items: center;
     justify-content: center;
     margin-left: 50px;
@@ -49,8 +49,11 @@ main p{
     margin: 30px 0;
 }
 main h3{
-    padding: 10px 30px;
-    background: #0d7b69cb;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #0d7b69b9;
     color: #fff;
     outline: none;
     border: none;
@@ -60,17 +63,17 @@ main h3{
     margin-block: 20px;
 }
 .facts p{
-    font-size: 19px;
-    padding: 10px 30px;
-    background: rgba(0,0,0,0.5);
+    font-size: 18px;
+    text-align: center;
     color: #fff;
-    outline: none;
-    border: none;
     font-weight: 300;
     text-transform:lowercase;
     border-radius: 50px;
-    margin-block: 30px;
-    display:inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: rgba(0,0,0,0.5);
 }
 main h4{
     font-size: 20px;
