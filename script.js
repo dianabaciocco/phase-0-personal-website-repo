@@ -1,7 +1,7 @@
-const h2 = document.createElement("h2");
-h2.textContent = "JS";
-
-document.querySelector("body").appendChild(h2);
-
-// mouseover
-// click
+document.getElementById("hover").addEventListener("mouseover", function() {
+    document.getElementById("hover").style.backgroundColor= "grey";
+});
+    
+document.getElementById("hover").addEventListener("mouseout", function() {
+    document.getElementById("hover").style.backgroundColor = "white";
+});
