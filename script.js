@@ -1,16 +1,18 @@
-//* search box animations *//
 
-const searchBox = document.querySelector(".search-box");
-const navBtnContainer = document.querySelector(".nav-btn-container");
-const searchBtn = document.querySelector(".search-btn");
-const closeBtn = document.querySelector(".close-btn");
+//* nav mouseover & reset *//
 
-searchBtn.addEventListener("click", () => {
-    searchBox.classList.add("active");
-    navBtnContainer.classList.add("active");
-});
+let navBtns = document.getElementById("navBtns");
 
-closeBtn.addEventListener("click", () => {
-    searchBox.classList.remove("active");
-    navBtnContainer.classList.remove("active");
-});
+// This handler will be executed every time the cursor
+// is moved over a different list item
+
+navBtns.addEventListener("mouseover", function( event ) {
+// highlight the mouseover target
+
+	event.target.style.color = "pink";
+  
+// reset the color after a short delay
+setTimeout(function() {
+	event.target.style.color = "";
+}, 500);
+}, false);
