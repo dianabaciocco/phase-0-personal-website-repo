@@ -1,32 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <title>My Website</title>
-  </head>
-  <body>
-    <header>
-        <div class="logo">
-            <img src="./pics/logo1.png" alt="logo" width="150px">
-        </div>
-    </header>
-    <main>
-        <div class="content-left">
-            <h1>Diana</h1>
-            <h2>Baciocco</h2>
-            <p>Hello there! Welcome to my site! That's Codie, the robot to your right. Don't mind him. He's just a little lost right now thinking over some expressions in his head.</p>
-            <h3>Fun Facts about <em>moi</em></h3>
-            <div class="facts">
-                <p>I'm pretty easy going in my personal life. My work self however is a machine! What's my motto? Throw kindness around like confetti!
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diana Baciocco</title>
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- my css -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <div class="search-box">
+      <input type="text" placeholder="search here..."/>
+  </div>
+
+  <div class="nav-container">
+      <div class="wrapper">
+         <nav>
+              <div class="logo">
+                <img src="./pics/logo.png" alt="" class="logo">
+              </div>
+              <ul class="nav-items">
+                  <li> 
+                    <a href="blog.html">Blog</a>
+                  </li>
+                  <li> 
+                    <a href="projects.html">Projects</a>
+                  </li>
+                  <li> 
+                    <a href="services.html">Services</a>
+                  </li>
+                  <li>
+                     <a href="index.html">Home</a>
+                    </li>
+                  <li> 
+                    <a class="nav-btn-container" href="#">
+                        <img class="search-btn" src="./img/search.svg" alt="">
+                        <img class="close-btn" src="./img/close.svg" alt="">
+                  </a></li>
+              </ul>
+         </nav>
+      </div>
+  </div>
+
+  <div class="header-container">
+      <div class="wrapper">
+          <header>
+            <div class="hero-content">
+                <h1>Hi, I'm Diana</h1>
+                <p>
+                    I design beatiful websites and throw around kindness like confetti.
+                </p>
+                <a href="mailto:dianabacioccoart@gmail.com">
+                  Contact Me
+                </a>
             </div>
-            <div><h4 id= "hover"><a href="https://www.linkedin.com/in/dianabaciocco" id="click">Let's connect on linkedIn!</a></h4></div>
-            <div><h5><a href="mailto:dianabaciocco@gmail.com"> Have questions? Contact me here!</a></h5></div>
-        </div>
-        <div class="content-right">
-            <img src="./pics/robot.png" alt="" class="icon-img">
-        </div>
-    </main>
-    <script src="script.js"></script>
-  </body>
+            <div class="hero-image">
+                <img src="./pics/icon.png" alt="" />
+            </div>
+          </header>
+          <div class="social-icons">
+              <a href="https://www.linkedin.com/in/dianabaciocco">
+                <img src="./pics/linkedin.svg" alt="">
+              </a>
+          </div>
+          <div class="info-about">
+              <ul class="info-about-items">
+                <li><strong>ABOUT</strong></li>
+                <li>Name: Diana Baciocco</li>
+                <li>School: FIS Software Engineering</li>
+                <li>Location: San Francisco</li>
+                <li>Pronoun: She/Her </li>
+              </ul>
+          </div>
+          <div class="info-facts">
+            <ul class="info-facts-items">
+              <li><strong>HOBBIES</strong></li>
+              <li>HIIT workouts</li>
+              <li>loves trying new teas & coffees</li>
+              <li>gardening</li>
+              <li>advid gamer</li>
+            </ul>
+          </div>
+      </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
 </html>

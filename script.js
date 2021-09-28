@@ -1,7 +1,19 @@
-document.getElementById("hover").addEventListener("mouseover", function() {
-    document.getElementById("hover").style.backgroundColor= "grey";
+//* search box animations *//
+
+const searchBox = document.querySelector(".search-box");
+const navBtnContainer = document.querySelector(".nav-btn-container");
+const searchBtn = document.querySelector(".search-btn");
+const closeBtn = document.querySelector(".close-btn");
+
+searchBtn.addEventListener("click", () => {
+    searchBox.classList.add("active");
+    navBtnContainer.classList.add("active");
 });
-    
-document.getElementById("hover").addEventListener("mouseout", function() {
-    document.getElementById("hover").style.backgroundColor = "white";
+
+closeBtn.addEventListener("click", () => {
+    searchBox.classList.remove("active");
+    navBtnContainer.classList.remove("active");
 });
+
+//* nav animations *//
+
