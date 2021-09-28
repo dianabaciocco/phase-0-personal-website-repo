@@ -14,6 +14,3 @@ closeBtn.addEventListener("click", () => {
     searchBox.classList.remove("active");
     navBtnContainer.classList.remove("active");
 });
-
-//* nav animations *//
-
